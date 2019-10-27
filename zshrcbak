@@ -18,6 +18,8 @@ ZSH_THEME="agnoster"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias neo="neofetch"
+alias ra="ranger"
+alias zshconfig="source ~/.zshrc"
 
 
 # Set list of themes to pick from when loading at random
