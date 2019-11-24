@@ -20,6 +20,7 @@ ZSH_THEME="agnoster"
 alias neo="neofetch"
 alias ra="ranger"
 alias zshconfig="source ~/.zshrc"
+alias zshvim="vim ~/.zshrc"
 
 
 # Set list of themes to pick from when loading at random
@@ -82,7 +83,7 @@ alias zshconfig="source ~/.zshrc"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(	
 git
-thefuck
+#thefuck
 web-search
 zsh-autosuggestions
 zsh-syntax-highlighting
