@@ -8,7 +8,8 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="bira"
+# bira avit crcandy essembeh crunch cloud dallas dieter duellj aussiegeek daveverwer 测试完e开头的主题
 
 
 #可以通过alias设置命令别名
