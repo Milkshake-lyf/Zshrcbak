@@ -8,8 +8,8 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="aussiegeek"
-# aussiegeek crunch crcandy dieter duellj dallas avit bira essembeh cloud daveverwer 测试完e开头的主题
+ZSH_THEME="bira"
+# bira avit crcandy essembeh crunch cloud dallas dieter duellj aussiegeek daveverwer 测试完e开头的主题
 
 
 #可以通过alias设置命令别名
@@ -18,7 +18,7 @@ ZSH_THEME="aussiegeek"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias neo="neofetch"
+alias neo="neofetch | lolcat"
 alias ra="ranger"
 alias zshconfig="source ~/.zshrc"
 alias zshvim="vim ~/.zshrc"
