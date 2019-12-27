@@ -1,6 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+neofetch | lolcat
+toilet Hello World ! -f smblock -F metal -F border
 # Path to your oh-my-zsh installation.
   export ZSH="/home/liyunfeng/.oh-my-zsh"
 
@@ -8,7 +10,7 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="cloud"
 # bira avit crcandy essembeh crunch cloud dallas dieter duellj aussiegeek daveverwer 测试完e开头的主题
 
 
@@ -28,7 +30,7 @@ alias zshvim="vim ~/.zshrc"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "crandy" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
