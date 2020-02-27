@@ -1,29 +1,62 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-neofetch | lolcat
-toilet Hello World ! -f smblock -F metal -F border
+#toilet Study hard everyday ! -f smblock -F metal -F border
+#figlet Study hard everyday ! -w 104
+toilet Study hard everyday ! -f smblock -F border
+#neofetch
+#-f slant
 # Path to your oh-my-zsh installation.
   export ZSH="/home/liyunfeng/.oh-my-zsh"
-
+export TERM=xterm-256color
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="cloud"
-# bira avit crcandy essembeh crunch cloud dallas dieter duellj aussiegeek daveverwer 测试完e开头的主题
-
-
+#ZSH_THEME="wezm"
+# kardan wezm theunraveler terminalparty wedisagree  houmian
+# miloshadzic simple avit crunch fwalch frontcube ys \\ gianu gallois linuxonly || gnzh frisk fishy bira
+# daveverwer crcandy aussiegeek essembeh dieter 测试完e开头的主题
+# fino 
+ZSH_THEME="random"
+ZSH_THEME_RANDOM_CANDIDATES=(
+"kardan"
+"wezm"
+"theunraveler"
+"terminalparty"
+"wedisagree"
+"miloshadzic"
+"simple"
+"avit"
+"crunch"
+"fwalch"
+"frontcube"
+"ys"
+"gianu"
+"gallois"
+"linuxonly"
+"gnzh"
+"frisk"
+"fishy"
+"bira"
+"daveverwer"
+"crcandy"
+"aussiegeek"
+"essembeh"
+"dieter"
+"fino"
+)
 #可以通过alias设置命令别名
 #alias neo="neofetch"
 #即设置neo为neofetch，输入neo回车即可执行neofetch命令
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias neo="neofetch | lolcat"
+alias neo="neofetch"
 alias ra="ranger"
 alias zshconfig="source ~/.zshrc"
 alias zshvim="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
 
 
 # Set list of themes to pick from when loading at random
